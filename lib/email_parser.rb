@@ -10,7 +10,7 @@ class EmailParser
     
   end
   
-  def self.parse
+  def parse
     emails_array = self.split(" " || ",")
     emails_array.uniq!
   end
