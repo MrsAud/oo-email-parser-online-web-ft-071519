@@ -10,7 +10,8 @@ class EmailParser
   end
   
   def parse
-    emails.split(/[,\s]+/).uniq!
+    emails_array = emails.split(/[,\s]+/)
+    emails_array.uniq!
   end
   
 end
