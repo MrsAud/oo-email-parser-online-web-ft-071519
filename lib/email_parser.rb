@@ -6,11 +6,7 @@ class EmailParser
   attr_accessor :emails
   
   def initialize(emails)
-    def parse
-    emails_array = emails.split(" " || ",")
-    emails_array.uniq!
-  end
-    parse
+    
   end
   
   
